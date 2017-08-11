@@ -37,4 +37,4 @@ environment variable (no encryption).
 
 Add an Invoke action in parallel to the action you want to monitor. 
 Choose AWS Lambda as the Provider and select your Lambda function.
-*Enter the name of the action you want to monitor as User Parameters.*
+**Enter the name of the action you want to monitor as User Parameters.**
