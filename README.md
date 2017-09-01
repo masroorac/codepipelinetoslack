@@ -25,11 +25,13 @@ as well as this CodePipeline permissions:
 
 Create a Slack incoming webhook. 
 
-Lambda environment variable name: kmsEncryptedHookUrl 
+*Lambda environment variable name: kmsEncryptedHookUrl*
+
 Get the webhook url (without the https://) and add it to the Lambda function
 as an encrypted environment variable. 
 
-Lambda environment variable name: slackChannel
+*Lambda environment variable name: slackChannel*
+
 Also add the Slack channel name you want to send the notifications to as an 
 environment variable (no encryption).
 
